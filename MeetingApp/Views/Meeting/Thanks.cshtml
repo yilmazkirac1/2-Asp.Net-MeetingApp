@@ -1,0 +1,15 @@
+@{
+    ViewBag.Title="Basvuru Durumu";
+}
+<main class="text-center">
+
+    <h1>Basvuru Durumu</h1>
+    @if(Model.WillAttend==true){
+        <p>Tesekkurler @Model.Name,Toplantiya sizinle birtlikte @ViewBag.UserCount kisi katiliyor.</p>
+        <a class="btn btn-outline-primary btn-sm" href="/Meeting/List">Katilimcilari Listele</a>
+    }
+    else{
+        <p>@Model.Name, Katilmadigin icin uzgunuz.</p>
+        <a class="btn btn-outline-primary btn-sm" href="/Meeting/Apply">Basvuru Formu</a>
+    }
+</main>
