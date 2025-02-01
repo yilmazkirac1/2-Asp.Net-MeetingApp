@@ -1,8 +1,8 @@
-# MeetingApp
+# 📌 MeetingApp
 
 ASP.NET Core tabanlı bir toplantı yönetim uygulaması.
 
-## Özellikler
+## 📖 İçerik  
 
 - **Empty Project**: Temiz bir başlangıç projesi.
 - **Default Routing**: Varsayılan yönlendirme yapısı.
